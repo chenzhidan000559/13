@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<data>
+
+    <games name="kof">
+        <list>/export/kof/list</list>
+        <src_dir>/export/kof/srcfile</src_dir>
+        <conf_dir>/export/kof/config</conf_dir>
+        <dest_dir>/home/super/update/kofpackage</dest_dir>
+        <md5_file>/export/kof/kof.md5</md5_file>
+        <config_file>/export/kof/config</config_file>
+        <rsync_opt bin="rsync" opt="-avzq" usr="root"  key=" " del="--delete" bw="--bwlimit=100" bk="yes"/>
+    </games>
+
+    <games name="ahlm">
+        <list>/export/ahlm/list</list>
+        <src_dir>/export/ahlm</src_dir>
+        <conf_dir>/export/ahlm/config</conf_dir>
+        <dest_dir>/home/super/update/ahlmpackage</dest_dir>
+        <md5_file>/export/ahlm/ahlm.md5</md5_file>
+        <config_file>/export/ahlm/config</config_file>
+        <rsync_opt bin="rsync" opt="-avqz" del="--delete" bw="--bwlimit=100"/>
+    </games>
+
+</data>
